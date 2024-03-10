@@ -1,0 +1,49 @@
+POST https://chettayaakashqhyvpnjscpikngv.drops.nxtwave.tech/login
+Content-Type: application/json
+{
+  "username": "christopher_phillips",
+  "password": "christy@123"
+}
+
+GET https://chettayaakashqhyvpnjscpikngv.drops.nxtwave.tech/states
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNzEwMDM3OTY0fQ.jmgPxOgM2wpF-bhreTQP1_swczWYuImpAE-WRu2JDzU
+
+GET https://chettayaakashqhyvpnjscpikngv.drops.nxtwave.tech/states/1/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNzEwMDM3OTY0fQ.jmgPxOgM2wpF-bhreTQP1_swczWYuImpAE-WRu2JDzU
+
+POST https://chettayaakashqhyvpnjscpikngv.drops.nxtwave.tech/districts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNzEwMDM3OTY0fQ.jmgPxOgM2wpF-bhreTQP1_swczWYuImpAE-WRu2JDzU
+Content-Type: application/json
+
+{
+  "districtName": "Bagalkot",
+  "stateId": 3,
+  "cases": 2323,
+  "cured": 2000,
+  "active": 315,
+  "deaths": 8
+}
+
+GET https://chettayaakashqhyvpnjscpikngv.drops.nxtwave.tech/districts/1/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNzEwMDM3OTY0fQ.jmgPxOgM2wpF-bhreTQP1_swczWYuImpAE-WRu2JDzU
+
+DELETE https://chettayaakashqhyvpnjscpikngv.drops.nxtwave.tech/districts/1/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNzEwMDM3OTY0fQ.jmgPxOgM2wpF-bhreTQP1_swczWYuImpAE-WRu2JDzU
+
+PUT https://chettayaakashqhyvpnjscpaqlbe.drops.nxtwave.tech/districts/3/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNzEwMDM3OTY0fQ.jmgPxOgM2wpF-bhreTQP1_swczWYuImpAE-WRu2JDzU
+
+Content-Type: application/json
+
+{
+  "districtName": "Nadia",
+  "stateId": 3,
+  "cases": 9628,
+  "cured": 6524,
+  "active": 3000,
+  "deaths": 104
+}
+
+GET https://chettayaakashqhyvpnjscpaqlbe.drops.nxtwave.tech/states/3/stats/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNzEwMDM3OTY0fQ.jmgPxOgM2wpF-bhreTQP1_swczWYuImpAE-WRu2JDzU
+
